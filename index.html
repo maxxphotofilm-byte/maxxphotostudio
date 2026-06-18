@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Maxx Photo Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#" class="nav-logo"><span id="logoText">Maxx</span><span class="logo-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#contato" class="nav-cta">Agendar</a>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#portfolio" class="mobile-link">Portfólio</a>
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#servicos" class="mobile-link">Serviços</a>
+    <a href="#contato" class="mobile-link">Contato</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" style="position:relative;">
+    <div class="hero-left">
+      <span class="hero-eyebrow" id="heroEyebrow">São Paulo · Fotografia de Retrato e Família</span>
+      <h1 class="hero-title" id="heroTitle">
+        Momentos que<br><em>ficam para</em><br>sempre.
+      </h1>
+      <p class="hero-sub" id="heroSub">
+        Cada família carrega histórias únicas. Eu registro essas histórias com luz natural, emoção genuína e um olhar atento ao detalhe.
+      </p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn-primary">Ver Portfólio</a>
+        <a href="#contato" class="btn-ghost">Agendar Ensaio</a>
+      </div>
+    </div>
+
+    <div class="hero-mosaic">
+      <div class="mosaic-cell">
+        <div class="photo-placeholder">
+          <svg class="photo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Sua foto aqui
+        </div>
+      </div>
+      <div class="mosaic-cell">
+        <div class="photo-placeholder">
+          <svg class="photo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Sua foto aqui
+        </div>
+      </div>
+      <div class="mosaic-cell">
+        <div class="photo-placeholder">
+          <svg class="photo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Sua foto aqui
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="stat reveal">
+      <div class="stat-n" id="stat1Value">+500</div>
+      <div class="stat-label" id="stat1Label">Famílias fotografadas</div>
+    </div>
+    <div class="stat reveal">
+      <div class="stat-n" id="stat2Value">8+</div>
+      <div class="stat-label" id="stat2Label">Anos de experiência</div>
+    </div>
+    <div class="stat reveal">
+      <div class="stat-n" id="stat3Value">98%</div>
+      <div class="stat-label" id="stat3Label">Clientes satisfeitos</div>
+    </div>
+    <div class="stat reveal">
+      <div class="stat-n" id="stat4Value">SP</div>
+      <div class="stat-label" id="stat4Label">São Paulo e região</div>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="portfolio-header reveal">
+      <div>
+        <span class="section-eyebrow">Galeria</span>
+        <h2 class="section-title" id="portfolioTitle">Alguns <em>momentos</em><br>registrados</h2>
+      </div>
+      <div class="portfolio-filter">
+        <button class="filter-btn active">Todos</button>
+        <button class="filter-btn">Família</button>
+        <button class="filter-btn">Retrato</button>
+        <button class="filter-btn">Gestante</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item reveal">
+        <div class="ph ph-1"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Família Silva</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-2"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Retrato</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-3"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Gestante</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-4"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Família Souza</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-5"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Retrato</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-6"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Família Costa</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-7"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Gestante</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-8"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Família Lima</span></div>
+      </div>
+      <div class="portfolio-item reveal">
+        <div class="ph ph-9"></div>
+        <div class="portfolio-overlay"><span class="portfolio-overlay-text">Retrato</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="sobre">
+    <div class="about-image reveal">
+      <div class="ph-about">Sua foto aqui</div>
+    </div>
+    <div class="about-text reveal">
+      <span class="section-eyebrow">Sobre mim</span>
+      <h2 class="section-title" id="aboutTitle">Fotógrafo com<br><em>alma de contador</em><br>de histórias</h2>
+      <p id="aboutP1">
+        Sou fotógrafo especializado em retratos e fotografia de família em São Paulo. Acredito que as melhores fotos não são as mais produzidas, mas as que capturam a essência de quem você realmente é.
+      </p>
+      <p id="aboutP2">
+        Com mais de 8 anos de experiência, desenvolvi um método que coloca as pessoas à vontade, criando um ambiente leve e natural para que as emoções reais apareçam em cada clique.
+      </p>
+      <div class="about-signature" id="signature">Maxx</div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="servicos">
+    <div class="services-intro reveal">
+      <span class="section-eyebrow">Serviços e Preços</span>
+      <h2 class="section-title" id="servicesTitle">Pacotes feitos<br><em>para você</em></h2>
+      <p id="servicesIntroText">Cada ensaio é único. Escolha o pacote que melhor se encaixa no que você está buscando.</p>
+    </div>
+
+    <div class="services-grid" id="servicesGrid">
+      <!-- Será preenchido pelo config.js -->
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="depoimentos">
+    <span class="section-eyebrow reveal">Depoimentos</span>
+    <h2 class="section-title reveal" id="testimonialsTitle">O que as <em>famílias</em><br>dizem</h2>
+
+    <div class="testimonials-grid" id="testimonialsGrid">
+      <!-- Será preenchido pelo config.js -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contato">
+    <div class="contact-info">
+      <span class="section-eyebrow reveal">Contato</span>
+      <h2 class="section-title reveal" id="contactTitle">Vamos criar<br><em>algo especial</em><br>juntos?</h2>
+      <p class="reveal" id="contactIntroText">
+        Entre em contato e vamos conversar sobre o seu ensaio ideal. Respondo em até 24 horas.
+      </p>
+
+      <div class="contact-details reveal" id="contactDetails">
+        <!-- Será preenchido pelo config.js -->
+      </div>
+    </div>
+
+    <div class="contact-form reveal">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nome">Seu nome</label>
+          <input type="text" id="nome" placeholder="Maria Silva" />
+        </div>
+        <div class="form-group">
+          <label for="tel">WhatsApp</label>
+          <input type="tel" id="tel" placeholder="(11) 9 0000-0000" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="maria@email.com" />
+      </div>
+      <div class="form-group">
+        <label for="servico">Tipo de ensaio</label>
+        <select id="servico">
+          <option value="">Selecione...</option>
+          <!-- Será preenchido pelo config.js -->
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="msg">Sua mensagem</label>
+        <textarea id="msg" placeholder="Conte um pouco sobre o ensaio que você imagina..."></textarea>
+      </div>
+      <button class="form-submit" onclick="submitForm()">Enviar mensagem</button>
+      <a id="whatsappBtn" class="whatsapp-btn" target="_blank">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo"><span id="footerLogoText">Maxx</span><span class="logo-dot">.</span> Photo Studio</div>
+    <nav class="footer-links">
+      <a href="#portfolio">Portfólio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <p class="footer-copy" id="footerCopy">© 2024 Maxx Photo Studio · São Paulo, SP · Todos os direitos reservados</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
